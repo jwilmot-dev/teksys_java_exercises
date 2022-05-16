@@ -1,0 +1,228 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main_container{
+    background-color: rgb(34, 33, 33);
+    width: 80%;
+    margin: 0px auto;
+}
+.section1{
+    width:100%;
+    display:flex;
+}
+.section2{
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+    flex-flow: row-reverse wrap;
+    padding:2%;
+}
+.intro{
+    
+}
+.gen_info{
+    border: 1px solid green;
+}
+.bio{
+    border: 1px solid blue;
+}
+.top_row{
+    display: flex;
+    flex-flow: row wrap;
+}
+.image{
+    width:150px;
+    padding:2%;
+}
+.name{
+    padding-top: 2%;
+    margin-left: 20px;
+    
+}
+.contact{
+    margin-left:auto;
+    padding: 3%;
+}
+.skillsDiv{
+    width: 25%;
+    min-width: 200px;
+    padding-right:2%;
+}
+.employment{
+    width: 75%;
+    padding-right:5%;
+}
+.summary{ 
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+.label{
+    font-weight: bold;
+}
+.data{
+    color: gray;
+}
+img{
+    width: 100%;
+    height:auto;
+}
+#w_name{
+    font-size: xx-large;
+    font-weight:bolder;
+}
+#title{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(90, 139, 214);
+}
+#bodytext{
+    color: gray;
+    line-height: 1.5;
+}
+.con_div{
+   width: 260px;
+   
+}
+#con_info{
+   
+    line-height: 1.5;
+}
+hr{
+    border: .5px solid gray;
+}
+a:visited{
+    color:  rgb(50, 115, 212);
+}
+a:link{
+    color: rgb(90, 139, 214);
+    text-decoration: none;
+}
+a:hover{
+    color:  rgb(90, 139, 214);
+}
+a:active{
+    color: white;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: rgb(53, 49, 49);
+}
+
+.skills {
+  height: 20px;
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.java { width: 90%; background-color:blue;}
+.python {width: 70%; background-color: #2196F3;}
+.htmlcss {width: 80%; background-color: green;}
+.php {width: 65%; background-color: orange;}
+.mysql {width: 80%; background-color:red;}
+
+#emp_box{
+    background-color: rgb(53, 49, 49);
+}
+#sublabel{
+    margin-bottom:3px;
+}
+.e_entry{
+    display:flex;
+    justify-content:space-between;
+}
+#e_place{
+    font-size: large;
+    font-weight: bold;
+}
+#e_date{
+    font-size: large;
+    color: gray;
+}
+.tighten{
+    margin-top: 0px;
+}
+.cb {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    /* cursor: pointer; */
+    font-size: 18px;
+    color: gray;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .cb input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+
+  #cb1 input:checked ~ .checkmark {
+    background-color: blue;
+  }
+
+  #cb2 input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+  #cb3 input:checked ~ .checkmark {
+    background-color: green;
+  }
+
+  #cb4 input:checked ~ .checkmark {
+    background-color: orange;
+  }
+
+  #cb5 input:checked ~ .checkmark {
+    background-color: red;
+  }
+  .checked1 {
+    color: #2196F3;
+  }
+  .checked2 {
+    color: green;
+  }
+  .checked3 {
+    color: orange;
+  }
+  .checked4 {
+    color: rgb(53, 49, 49);
+  }
+
+  .lang_container{
+      display: flex;
+      min-width: 200px;
+  }
+  .lang_names{
+      line-height: 2.5;
+      margin-right: 24px;
+  }
+  .stars{
+    line-height: 2.5;
+}
+  
+  
